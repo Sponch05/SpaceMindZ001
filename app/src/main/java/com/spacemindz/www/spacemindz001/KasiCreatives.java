@@ -12,4 +12,5 @@ public class KasiCreatives extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kasi_creatives);
     }
+
 }

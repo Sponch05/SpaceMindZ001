@@ -4,36 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.spacemindz.www.spacemindz001.Content">
+    tools:context="com.spacemindz.www.spacemindz001.Content"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="303dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSearch"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ScrollView
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:ignore="MissingConstraints">
+        android:layout_width="375dp"
+        android:layout_height="456dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="88dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            tools:ignore="UselessLeaf" >
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/txtKasiKotas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Kasi Kotas"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="-26dp" />
 
             <ImageButton
+                android:id="@+id/imgBtnKasiFood"
                 android:layout_width="match_parent"
-                android:layout_height="179dp"
+                android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/kota_b"
+                app:srcCompat="@drawable/dagwood"
                 tools:ignore="ContentDescription" />
 
             <TextView
-                android:id="@+id/txtTopkat"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="Fashion"
+                android:textAlignment="center"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/txtFashion"
+                android:layout_width="365dp"
+                android:layout_height="467dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/photo"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
