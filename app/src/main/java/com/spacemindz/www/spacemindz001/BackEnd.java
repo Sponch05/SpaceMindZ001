@@ -10,7 +10,7 @@ public class BackEnd {
     int itemId;
     String itemName;
     double itemPrice;
-    int rating;
+    int itemRating;
     int sellerId;
 
 
@@ -25,6 +25,15 @@ public class BackEnd {
     }
 
    //paramitized constructor should be here public BackEnd
+    public BackEnd(int itemId, String itemName,double itemPrice,int itemRating,int sellerId)
+    {
+
+        this.itemId = itemId;
+        this.itemName = itemName;
+        this.itemPrice = itemPrice;
+        this.itemRating = itemRating;
+        this.sellerId = sellerId;
+    }
     //All getters
     int getItemId()
     {
@@ -36,14 +45,14 @@ public class BackEnd {
         return itemName;
     }
     //get item price
-    double returnPrice()
+    double getPrice()
     {
         return itemPrice;
     }
     //getRating
     int getRating()
     {
-        return rating;
+        return itemRating;
     }
     //getSellerId
     int getSellerId()
@@ -68,7 +77,7 @@ public class BackEnd {
     }
     void setRating(int rating)
     {
-        this.rating = rating;
+        this.itemRating = rating;
     }
     void setSellerId(int sellerId)
     {
