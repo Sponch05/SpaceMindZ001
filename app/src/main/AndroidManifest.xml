@@ -20,6 +20,7 @@
         <activity android:name=".Register" />
         <activity android:name=".CategoryKotas" />
         <activity android:name=".KasiCreatives" />
+        <activity android:name=".Content"></activity>
     </application>
 
 </manifest>
