@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Checkout"></activity>
+        <activity android:name=".Checkout" />
+        <activity android:name=".Register" />
+        <activity android:name=".Sales" />
+        <activity android:name=".CategoryKotas" />
+        <activity android:name=".KasiCreatives"></activity>
     </application>
 
 </manifest>

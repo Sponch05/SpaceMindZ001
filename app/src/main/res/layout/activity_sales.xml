@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spacemindz.www.spacemindz001.Sales">
+
+    <ImageButton
+        android:id="@+id/imageButtonHelp"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:background="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@drawable/help_btn"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="254dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search items here"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ScrollView
+        android:layout_width="361dp"
+        android:layout_height="817dp"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="83dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+
+            <ImageButton
+                android:id="@+id/imgBtnFastFoods"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dagwood"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtKasiFastFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Kasi Kotas"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imgBtnCreatives"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/designerz"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fashion The creatives"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imgBtnJobs"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/mico"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtViewMicroJobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Micro Jobs"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imgBtnCrowd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/crowed_funding"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtViewCrowdFunding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crowd Funding"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
