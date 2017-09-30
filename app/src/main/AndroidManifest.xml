@@ -20,10 +20,6 @@
         <activity android:name=".Register" />
         <activity android:name=".CategoryKotas" />
         <activity android:name=".KasiCreatives" />
-        <activity
-            android:name=".TheCustomerServices"
-            android:label="@string/title_activity_the_customer_services"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
