@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spacemindz.www.spacemindz001.Vendor"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="requests"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="119dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="115dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/cart"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catalogue"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/art_piece" />
+
+</android.support.constraint.ConstraintLayout>

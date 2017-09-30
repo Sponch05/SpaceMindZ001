@@ -20,7 +20,10 @@
         <activity android:name=".Register" />
         <activity android:name=".CategoryKotas" />
         <activity android:name=".KasiCreatives" />
-        <activity android:name=".Content"></activity>
+        <activity android:name=".Content" />
+        <activity android:name=".DataFeedBack" />
+        <activity android:name=".Vendor" />
+        <activity android:name=".AddItem"></activity>
     </application>
 
 </manifest>
