@@ -21,6 +21,10 @@
         <activity android:name=".CategoryKotas" />
         <activity android:name=".KasiCreatives" />
         <activity android:name=".Content" />
+        <activity android:name=".KotasOnline" />
+        <activity android:name=".TheCreatives" />
+        <activity android:name=".JobsAroundTheHood" />
+        <activity android:name=".FruitAndVeg"></activity>
         <activity android:name=".DataFeedBack" />
         <activity android:name=".Vendor" />
         <activity android:name=".AddItem" />
