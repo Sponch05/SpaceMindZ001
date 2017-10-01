@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Content">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,10 +20,9 @@
         <activity android:name=".Register" />
         <activity android:name=".CategoryKotas" />
         <activity android:name=".KasiCreatives" />
-        <activity android:name=".Content" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".KotasOnline" />
         <activity android:name=".TheCreatives" />
-        <activity android:name=".JobsAroundTheHood" />
         <activity android:name=".FruitAndVeg"></activity>
         <activity android:name=".DataFeedBack" />
         <activity android:name=".Vendor" />

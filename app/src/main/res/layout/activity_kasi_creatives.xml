@@ -6,20 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.spacemindz.www.spacemindz001.KasiCreatives">
 
-    <ImageButton
-        android:id="@+id/imgDigitalColabo"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="189dp"
-        android:background="@android:color/background_light"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_height="136dp"
+        android:scaleType="fitXY"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/colaborative_economy"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        app:srcCompat="@drawable/presentation"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="33dp" />
 
     <TextView
         android:id="@+id/txtDesigners"
@@ -30,7 +26,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
 
     <ImageButton
         android:id="@+id/imgDressCultural"
@@ -39,13 +37,13 @@
         android:background="@android:color/background_light"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fashion_c"
         tools:ignore="ContentDescription,RtlHardcoded"
-        app:layout_constraintVertical_bias="0.467" />
+        app:layout_constraintVertical_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.15" />
 
     <TextView
         android:id="@+id/txtDesignerName"
@@ -57,10 +55,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574"
         tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.21" />
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintVertical_bias="0.57" />
 
     <TextView
         android:id="@+id/txtContacts"
@@ -71,9 +69,11 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
-        tools:layout_editor_absoluteY="301dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.213" />
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
 
     <TextView
         android:id="@+id/txtOrderDress"
@@ -83,12 +83,12 @@
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643"
-        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded" />
+        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+        app:layout_constraintVertical_bias="0.639" />
 
     <ImageButton
         android:id="@+id/imgBtnArtPiece"
@@ -98,10 +98,12 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/art_piece"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="239dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
+        app:layout_constraintVertical_bias="0.462"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.856" />
 
     <TextView
         android:id="@+id/txtArtPiece"
@@ -111,8 +113,12 @@
         android:textAlignment="center"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.827" />
 
     <TextView
         android:id="@+id/txtArtPiecePrice"
@@ -122,8 +128,12 @@
         android:textAlignment="center"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="263dp"
-        tools:layout_editor_absoluteY="301dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
 
     <TextView
         android:id="@+id/txtPlaceOrderArt"
@@ -132,8 +142,12 @@
         android:text="Place Order"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="318dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.825" />
 
     <ImageButton
         android:id="@+id/img"
@@ -143,8 +157,12 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/photo"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="354dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
 
     <TextView
         android:id="@+id/txtdsgnaName"
@@ -154,12 +172,12 @@
         android:textAlignment="center"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.868"
+        app:layout_constraintRight_toLeftOf="@+id/imageButton8"
+        app:layout_constraintHorizontal_bias="0.352" />
 
     <TextView
         android:id="@+id/txtVintageprice"
@@ -171,10 +189,10 @@
         tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <TextView
         android:id="@+id/txtCell"
@@ -184,10 +202,12 @@
         android:textAlignment="center"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="473dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.187" />
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
 
     <TextView
         android:id="@+id/txtOrderVint"
@@ -199,10 +219,10 @@
         tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -212,8 +232,12 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/shoe"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="354dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtShoe"
+        app:layout_constraintTop_toBottomOf="@+id/txtPlaceOrderArt"
+        app:layout_constraintVertical_bias="0.523"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.856" />
 
     <TextView
         android:id="@+id/txtShoe"
@@ -228,7 +252,7 @@
         app:layout_constraintHorizontal_bias="0.804"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.868" />
 
     <TextView
         android:id="@+id/txtShoePrice"
@@ -238,10 +262,11 @@
         android:textAlignment="center"
         android:textStyle="bold"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="456dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.794" />
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/txtCellNoSHoe"
@@ -256,7 +281,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <TextView
         android:id="@+id/txtPlaceshoeOrder"
@@ -269,9 +294,9 @@
         tools:text="Place Order"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintHorizontal_bias="0.799"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="0.933" />
 
 </android.support.constraint.ConstraintLayout>
