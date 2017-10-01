@@ -81,6 +81,22 @@
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/photo"
                 tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtMicro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imgMicro jobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/mico" />
         </LinearLayout>
     </ScrollView>
 
