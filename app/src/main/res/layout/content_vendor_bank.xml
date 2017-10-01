@@ -4,37 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/universe"
+    android:background="@drawable/help_pic"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.spacemindz.www.spacemindz001.VendorBank"
     tools:showIn="@layout/activity_vendor_bank">
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/headText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Snyman Vendor "
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="44dp" />
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="45dp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/balanceTxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Balance : "
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="110dp" />
+        tools:layout_editor_absoluteY="147dp" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/pendTxtV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pending : "
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:layout_editor_absoluteY="224dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/withdrawBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Withdraw"

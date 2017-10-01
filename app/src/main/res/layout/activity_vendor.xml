@@ -21,6 +21,7 @@
         android:id="@+id/imageButton4"
         android:layout_width="119dp"
         android:layout_height="85dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/download"
         tools:layout_editor_absoluteX="133dp"
         tools:layout_editor_absoluteY="33dp" />
@@ -29,6 +30,7 @@
         android:id="@+id/imageButton5"
         android:layout_width="115dp"
         android:layout_height="109dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/cart"
         tools:layout_editor_absoluteX="135dp"
         tools:layout_editor_absoluteY="181dp" />
@@ -54,8 +56,9 @@
         android:id="@+id/imageButton6"
         android:layout_width="121dp"
         android:layout_height="139dp"
+        android:scaleType="fitStart"
         app:srcCompat="@drawable/payment"
-        tools:layout_editor_absoluteY="339dp"
-        tools:layout_editor_absoluteX="142dp" />
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="339dp" />
 
 </android.support.constraint.ConstraintLayout>

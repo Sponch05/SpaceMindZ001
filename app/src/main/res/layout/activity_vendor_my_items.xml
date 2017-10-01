@@ -7,11 +7,21 @@
     tools:context="com.spacemindz.www.spacemindz001.VendorMyItems">
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/myItemsTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Items"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="59dp" />
+
+    <ListView
+        android:id="@+id/viewL"
+        android:layout_width="360dp"
+        android:layout_height="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
 
 </android.support.constraint.ConstraintLayout>

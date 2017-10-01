@@ -4,30 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/photoshop"
     tools:context="com.spacemindz.www.spacemindz001.AddItem">
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="74dp"
-        android:layout_height="35dp"
+        android:id="@+id/itemTypeTxt_view"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
         android:text="Item type:"
-        tools:layout_editor_absoluteX="59dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="103dp" />
 
     <TextView
-        android:layout_width="76dp"
-        android:layout_height="35dp"
+        android:id="@+id/itemNameTxt_view"
+        android:layout_width="141dp"
+        android:layout_height="47dp"
         android:text="Item Name:"
-        tools:layout_editor_absoluteX="59dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="168dp" />
 
     <TextView
-        android:id="@+id/Item Price :"
-        android:layout_width="72dp"
-        android:layout_height="42dp"
+        android:id="@+id/itemPriceTxt_view"
+        android:layout_width="122dp"
+        android:layout_height="61dp"
         android:text="Item Price : "
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="234dp" />
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="242dp" />
 
     <Button
         android:id="@+id/button"
@@ -38,30 +49,30 @@
         tools:layout_editor_absoluteY="333dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nameField"
         android:layout_width="171dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="168dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/itemTypeField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberSigned"
-        tools:layout_editor_absoluteY="103dp"
-        tools:layout_editor_absoluteX="147dp" />
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="103dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/itemPriceField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteY="234dp"
-        tools:layout_editor_absoluteX="153dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="249dp" />
 </android.support.constraint.ConstraintLayout>
