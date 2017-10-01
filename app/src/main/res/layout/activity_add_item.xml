@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context="com.spacemindz.www.spacemindz001.AddItem">
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:text="Item type:"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:text="Item Name:"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/Item Price :"
+        android:layout_width="72dp"
+        android:layout_height="42dp"
+        android:text="Item Price : "
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="171dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteY="103dp"
+        tools:layout_editor_absoluteX="147dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteY="234dp"
+        tools:layout_editor_absoluteX="153dp" />
 </android.support.constraint.ConstraintLayout>

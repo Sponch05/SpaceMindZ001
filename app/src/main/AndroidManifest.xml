@@ -23,7 +23,12 @@
         <activity android:name=".Content" />
         <activity android:name=".DataFeedBack" />
         <activity android:name=".Vendor" />
-        <activity android:name=".AddItem"></activity>
+        <activity android:name=".AddItem" />
+        <activity
+            android:name=".VendorBank"
+            android:label="@string/title_activity_vendor_bank"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VendorMyItems"></activity>
     </application>
 
 </manifest>
