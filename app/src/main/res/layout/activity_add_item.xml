@@ -9,54 +9,90 @@
 
     <TextView
         android:id="@+id/itemTypeTxt_view"
-        android:layout_width="133dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
         android:text="Item type:"
         android:textColor="@android:color/background_dark"
         android:textColorHighlight="@android:color/background_dark"
         android:textColorLink="@android:color/holo_red_dark"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="103dp" />
+        app:layout_constraintRight_toLeftOf="@+id/itemTypeField"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/itemTypeField"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
         android:id="@+id/itemNameTxt_view"
-        android:layout_width="141dp"
+        android:layout_width="0dp"
         android:layout_height="47dp"
         android:text="Item Name:"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintRight_toLeftOf="@+id/nameField"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nameField"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
         android:id="@+id/itemPriceTxt_view"
-        android:layout_width="122dp"
+        android:layout_width="0dp"
         android:layout_height="61dp"
         android:text="Item Price : "
         android:textColor="@android:color/background_dark"
         android:textColorLink="@android:color/background_dark"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="242dp" />
+        app:layout_constraintRight_toLeftOf="@+id/itemPriceField"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/nameField"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Item"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintLeft_toRightOf="@+id/itemPriceTxt_view" />
 
     <EditText
         android:id="@+id/nameField"
-        android:layout_width="171dp"
+        android:layout_width="0dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="168dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintRight_toRightOf="@+id/itemTypeField"
+        android:layout_marginTop="168dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="170dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/itemTypeTxt_view" />
 
     <EditText
         android:id="@+id/itemTypeField"
@@ -64,8 +100,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberSigned"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="103dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/nameField"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="22dp" />
 
     <EditText
         android:id="@+id/itemPriceField"
@@ -73,6 +113,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="249dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toTopOf="@+id/itemPriceTxt_view" />
 </android.support.constraint.ConstraintLayout>

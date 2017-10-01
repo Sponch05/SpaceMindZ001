@@ -35,6 +35,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public DatabaseHandler(Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERION);
     }
+
     //Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db)
@@ -59,7 +60,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     //Add new item
     public void addBackEnd(BackEnd backEnd){
-        SQLiteDatabase db = this.getWritableDatabase();
+        SQLiteDatabase db = getWritableDatabase();
 
         ContentValues values = new ContentValues();
         values.put(KEY_ID, backEnd.getItemId());
